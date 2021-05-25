@@ -1,0 +1,40 @@
+.blog-card {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.title-display {
+  font-size: 2.3rem;
+}
+.content-display {
+  min-height: 200px;
+  font-size: 1.2rem;
+}
+.blog-card button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  /* 
+  justify-self: center;
+  align-self: center; */
+}
+.sign {
+  justify-self: center;
+  align-self: center;
+}
+.btn {
+  width: 20px;
+  align-self: flex-end;
+}
+.btn:hover button {
+  background-color: black;
+  color: red;
+}
+.blog-card:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}

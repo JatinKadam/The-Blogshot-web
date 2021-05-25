@@ -1,0 +1,68 @@
+.create-wrapper {
+  width: 90%;
+  max-width: 1100px;
+
+  margin: auto;
+  font-family: monospace;
+}
+.head-text h1 {
+  font-size: 50px;
+}
+.head-text {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 1;
+}
+.head-text span {
+  transition: font-size 1s;
+}
+.head-text span:hover {
+  transition: font-size 1s;
+}
+.head-text span:hover {
+  background-color: black;
+  color: yellow;
+  font-size: 66px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+input,
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 20px;
+  font-family: monospace;
+
+  padding: 10px;
+}
+.content {
+  padding-top: 10px;
+  word-wrap: break-word;
+  /* margin-top: 30px; */
+  overflow: auto;
+  min-height: 200px;
+  display: block;
+}
+.form-btn {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  width: 150px;
+  height: 35px;
+  align-self: center;
+}
+.form-btn:hover {
+  background-color: yellow;
+  color: black;
+  font-weight: 500;
+  border: 1px solid black;
+  border: 1px 1px;
+  border-bottom: 0px;
+}
