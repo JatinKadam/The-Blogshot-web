@@ -1,5 +1,6 @@
 # The-Blogshot-web
 Blog site using mern stack.
+https://determined-noether-2f1440.netlify.app/
 Home page
 ![home](https://user-images.githubusercontent.com/59409921/119545433-6f0dc800-bdb0-11eb-925a-7e4116ccdfa9.png)
 Create page
