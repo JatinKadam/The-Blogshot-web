@@ -7,7 +7,7 @@ const Blogs = () => {
   const blogs = useSelector((state) => state.blogs);
   console.log("updated");
   return !blogs.length ? (
-    <h1 style={{ textAlign: "center" }}>are we on moon?</h1>
+    <h1 style={{ textAlign: "center" }}>are we on the moon?</h1>
   ) : (
     <>
       <div className="blog-wrapper">
